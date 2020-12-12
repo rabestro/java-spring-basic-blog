@@ -45,7 +45,7 @@ public class PostRepository {
                     "Sarah Holderness", new Date())
     ));
     public List<Post> getAllPosts() {
-        return null;
+        return ALL_POSTS;
     }
 
     public Post findById(Long id) {

@@ -24,6 +24,7 @@ public class BlogController {
         return "home";
     }
 
+    @RequestMapping("/post/{id}")
     public String postDetails(@PathVariable Long id, ModelMap modelMap) {
         return "post-details";
     }
